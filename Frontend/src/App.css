@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat+Alternates&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    /* overflow-x: hidden; */
+    /* height: 600vh; */
+}
+
+.bg-fon-header {
+    background-image: url(https://res.cloudinary.com/dviivhiqd/image/upload/v1697234502/h1_hero1_qbzuwt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-fon-header2 {
+    background-image: url(https://res.cloudinary.com/dviivhiqd/image/upload/v1697234601/section_bg1_pgbbps.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-header-fon-3 {
+    background-image: url(https://res.cloudinary.com/dviivhiqd/image/upload/v1697234579/video-bg_j1jrnx.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-HeaderNavBottom-fon {
+    background-image: url(https://preview.colorlib.com/theme/tralive/assets/img/hero/h1_hero2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-HeaderNavBottom-fon-Abouts {
+    background-image: url(https://travelicious.bold-themes.com/main-demo/wp-content/uploads/sites/2/2018/08/bgn-heading-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-HeaderNavBottom-fon-Contacts {
+    background-image: url(https://preview.colorlib.com/theme/tralive/assets/img/hero/h1_hero6.jpg.webp
+);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-HeaderNavBottom-fon-Blog {
+    background-image: url(https://cdn.wallpapersafari.com/58/59/lqk6tB.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Comment-bg-fon {
+    background-image: url(https://th.bing.com/th/id/R.2ed3d918115120f51cba101ad3ba2c43?rik=L1BiJnivKsvmQQ&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f8%2fComment-PNG.png&ehk=wb2f8glgDCtlA%2fDMrrILdbNvEbYxFwyy5icYYW2JGC8%3d&risl=&pid=ImgRaw&r=0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
