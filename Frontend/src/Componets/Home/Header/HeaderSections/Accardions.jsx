@@ -43,9 +43,8 @@ const Accardions = () => {
       <div className="container mx-auto justify-between w-full max-lg:items-center space-x-10 flex flex-row max-lg:flex-col">
         <div className="basis-3/6  flex flex-col justify-center max-lg:pb-[50px] ">
           <div
-            className={`pb-[25px] mb-[25px]   h-[0] overflow-x-hidden overflow-y-hidden transition-all duration-700 ${
-              Accardions ? "h-[155px] transition-all" : " "
-            }"`}
+            className={`pb-[25px] mb-[25px]   h-[0] overflow-x-hidden overflow-y-hidden transition-all duration-700 ${Accardions ? "h-[155px] transition-all" : " "
+              }"`}
           >
             <p
               onClick={() => AccardionsClick(1)}
@@ -60,9 +59,8 @@ const Accardions = () => {
             </span>
           </div>
           <div
-            className={`pb-[25px] mb-[25px] h-[0] overflow-x-hidden overflow-y-hidden transition-all duration-700 ${
-              Accardions2 ? "h-[155px] transition-all" : ""
-            }`}
+            className={`pb-[25px] mb-[25px] h-[0] overflow-x-hidden overflow-y-hidden transition-all duration-700 ${Accardions2 ? "h-[155px] transition-all" : ""
+              }`}
           >
             <p
               onClick={() => AccardionsClick(2)}
@@ -77,9 +75,8 @@ const Accardions = () => {
             </span>{" "}
           </div>
           <div
-            className={`pb-[25px] mb-[25px] h-[0] overflow-x-hidden overflow-y-hidden transition-all duration-700 ${
-              Accardions3 ? "h-[155px] transition-all" : ""
-            }`}
+            className={`pb-[25px] mb-[25px] h-[0] overflow-x-hidden overflow-y-hidden transition-all duration-700 ${Accardions3 ? "h-[155px] transition-all" : ""
+              }`}
           >
             <p
               onClick={() => AccardionsClick(3)}
@@ -94,9 +91,8 @@ const Accardions = () => {
             </span>
           </div>
           <div
-            className={`pb-[25px] mb-[25px] h-[0] overflow-x-hidden overflow-y-hidden transition-all duration-700 ${
-              Accardions4 ? "h-[155px] transition-all" : ""
-            }`}
+            className={`pb-[25px] mb-[25px] h-[0] overflow-x-hidden overflow-y-hidden transition-all duration-700 ${Accardions4 ? "h-[155px] transition-all" : ""
+              }`}
           >
             {" "}
             <p
